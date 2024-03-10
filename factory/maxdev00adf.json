@@ -1,0 +1,9 @@
+{
+	"name": "maxdev00adf",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "37295bf1-e61e-4044-935f-432deb2da709",
+		"tenantId": "88252575-2649-49b6-a91e-db4295dfa888"
+	}
+}

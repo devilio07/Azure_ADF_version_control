@@ -7,7 +7,14 @@
 			"domain": "https://adb-3151607451061839.19.azuredatabricks.net",
 			"authentication": "MSI",
 			"workspaceResourceId": "/subscriptions/f1fb6f22-5de4-4cae-8efe-57a18eec5da0/resourceGroups/maxdev_resource_group/providers/Microsoft.Databricks/workspaces/maxdev_databricks_workspace",
-			"existingClusterId": "0222-172249-wf0ly7k4"
+			"newClusterNodeType": "Standard_E4d_v4",
+			"newClusterNumOfWorker": "1",
+			"newClusterSparkEnvVars": {
+				"PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+			},
+			"newClusterVersion": "14.3.x-scala2.12",
+			"clusterOption": "Fixed",
+			"newClusterInitScripts": []
 		}
 	}
 }

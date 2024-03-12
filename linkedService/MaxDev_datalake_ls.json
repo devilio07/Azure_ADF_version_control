@@ -1,0 +1,10 @@
+{
+	"name": "MaxDev_datalake_ls",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://maxdev00storage.dfs.core.windows.net/"
+		}
+	}
+}

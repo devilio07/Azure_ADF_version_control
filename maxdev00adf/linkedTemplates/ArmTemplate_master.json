@@ -11,6 +11,10 @@
 			"type": "string",
 			"defaultValue": "0222-172249-wf0ly7k4"
 		},
+		"MaxDev_datalake_ls_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://maxdev00storage.dfs.core.windows.net/"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -40,6 +44,9 @@
 					},
 					"MaxDev_databricks_ls_properties_typeProperties_existingClusterId": {
 						"value": "[parameters('MaxDev_databricks_ls_properties_typeProperties_existingClusterId')]"
+					},
+					"MaxDev_datalake_ls_properties_typeProperties_url": {
+						"value": "[parameters('MaxDev_datalake_ls_properties_typeProperties_url')]"
 					}
 				}
 			},

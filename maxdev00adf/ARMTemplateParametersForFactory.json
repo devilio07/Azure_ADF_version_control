@@ -7,6 +7,9 @@
 		},
 		"MaxDev_databricks_ls_properties_typeProperties_existingClusterId": {
 			"value": "0222-172249-wf0ly7k4"
+		},
+		"MaxDev_datalake_ls_properties_typeProperties_url": {
+			"value": "https://maxdev00storage.dfs.core.windows.net/"
 		}
 	}
 }

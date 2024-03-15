@@ -300,6 +300,7 @@
 				}
 			}
 		],
+		"concurrency": 1,
 		"parameters": {
 			"p_window_end_date": {
 				"type": "string"

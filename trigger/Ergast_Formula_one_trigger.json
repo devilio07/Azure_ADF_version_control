@@ -2,7 +2,16 @@
 	"name": "Ergast_Formula_one_trigger",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Stopped",
+		"runtimeState": "Started",
+		"pipeline": {
+			"pipelineReference": {
+				"referenceName": "Formula One Data Processing",
+				"type": "PipelineReference"
+			},
+			"parameters": {
+				"p_window_end_date": "@trigger().outputs.windowEndTime"
+			}
+		},
 		"type": "TumblingWindowTrigger",
 		"typeProperties": {
 			"frequency": "Hour",

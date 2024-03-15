@@ -15,6 +15,10 @@
 			"type": "string",
 			"defaultValue": "https://maxdev00storage.dfs.core.windows.net/"
 		},
+		"Ergast_Formula_one_trigger_properties_pipeline_parameters_p_window_end_date": {
+			"type": "string",
+			"defaultValue": "@trigger().outputs.windowEndTime"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -47,6 +51,9 @@
 					},
 					"MaxDev_datalake_ls_properties_typeProperties_url": {
 						"value": "[parameters('MaxDev_datalake_ls_properties_typeProperties_url')]"
+					},
+					"Ergast_Formula_one_trigger_properties_pipeline_parameters_p_window_end_date": {
+						"value": "[parameters('Ergast_Formula_one_trigger_properties_pipeline_parameters_p_window_end_date')]"
 					}
 				}
 			},

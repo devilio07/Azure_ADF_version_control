@@ -146,31 +146,6 @@
 							}
 						},
 						{
-							"name": "Transfrom race results_copy3",
-							"type": "DatabricksNotebook",
-							"dependsOn": [],
-							"policy": {
-								"timeout": "0.12:00:00",
-								"retry": 0,
-								"retryIntervalInSeconds": 30,
-								"secureOutput": false,
-								"secureInput": false
-							},
-							"typeProperties": {
-								"notebookPath": "/Repos/sharmamarmik07@outlook.com/FormulaOne_Databricks/FormulaOne/TransF/1. Race_results",
-								"baseParameters": {
-									"file_date": {
-										"value": "@formatDateTime(pipeline().parameters.p_window_end_date,'yyyy-MM-dd')",
-										"type": "Expression"
-									}
-								}
-							},
-							"linkedServiceName": {
-								"referenceName": "MaxDev_databricks_ls",
-								"type": "LinkedServiceReference"
-							}
-						},
-						{
 							"name": "Transfrom Calculated Race Results",
 							"type": "DatabricksNotebook",
 							"dependsOn": [],
